@@ -17,9 +17,133 @@ import PlaygroundSupport
 let canvas = Canvas(width: 300, height: 300)
 
 //: ## Add your code below
-
-
-
+// Draw the snowflakes
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 0, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 23, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 46, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 69, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 91, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 114, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 137, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 160, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 183, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 206, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 229, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 252, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 275, width: 2, height: 2)
+    
+    canvas
+}
+for x in stride(from: 0, through: 300, by: 23) {
+    
+    x
+    
+    // Draw each peak
+    canvas.drawEllipse(centreX: x, centreY: 298, width: 2, height: 2)
+    
+    canvas
+}
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
