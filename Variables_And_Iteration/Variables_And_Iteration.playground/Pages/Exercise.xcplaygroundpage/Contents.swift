@@ -18,154 +18,52 @@ let canvas = Canvas(width: 300, height: 300)
 
 //: ## Add your code below
 // Draw the snowflakes
-for x in stride(from: 0, through: 300, by: 23) {
-    
+for x in stride(from: 0, through: 300, by: 25) {
     x
-    
-// Draw the snowflakes
-    
-    canvas.drawEllipse(centreX: x, centreY: 46, width: 2, height: 2)
-    
-    canvas
-    
+    for y in stride(from: 25, through: 300, by: 25) {
+        y
+    canvas.drawEllipse(centreX: x, centreY: y, width: 2, height: 2)
+        }
+    }
+
+//draw the light grey peaks
+canvas.defaultLineWidth = 1
+canvas.lineColor = Color.init(hue: 286, saturation: 0, brightness: 70, alpha: 100)
+for i in stride(from: 0, through: 50, by: 1) {
+        canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 200-i)
 }
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-// Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 23, width: 2, height: 2)
-    
-    canvas
+for i in stride(from: 50, through: 100, by:1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 100+i)
 }
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 46, width: 2, height: 2)
-    
-    canvas
+for i in stride(from: 100, through: 150, by: 1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 300-i)
 }
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 69, width: 2, height: 2)
-    
-    canvas
+for i in stride(from: 150, through: 200, by:1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 0+i)
 }
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 91, width: 2, height: 2)
-    
-    canvas
+for i in stride(from: 200, through: 250, by: 1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 400-i)
 }
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 114, width: 2, height: 2)
-    
-    canvas
-}
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 137, width: 2, height: 2)
-    
-    canvas
-}
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 160, width: 2, height: 2)
-    
-    canvas
-}
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 183, width: 2, height: 2)
-    
-    canvas
-}
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 206, width: 2, height: 2)
-    
-    canvas
-}
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 229, width: 2, height: 2)
-    
-    canvas
-}
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 252, width: 2, height: 2)
-    
-    canvas
-}
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 275, width: 2, height: 2)
-    
-    canvas
-}
-for x in stride(from: 0, through: 300, by: 23) {
-    
-    x
-    
-    // Draw the snowflakes
-    canvas.drawEllipse(centreX: x, centreY: 298, width: 2, height: 2)
-    
-    canvas
+for i in stride(from: 250, through: 300, by:1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: -100+i)
 }
 
-canvas.defaultLineWidth = 100
+canvas.lineColor = Color.init(hue: 247, saturation: 0, brightness: 50, alpha: 100)
+for i in stride(from: 0, through: 35, by :1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 100-i)
+}
+for i in stride(from: 35, through: 70, by: 1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 29+i)
+}
+for i in stride(from: 70, through: 105, by :1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 170-i)
+}
+for i in stride(from: 105, through: 140, by: 1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 29+i)
+}
 
-//Draw the light grery peaks
-canvas.lineColor = Color.init(hue: 286, saturation: 0, brightness: 69, alpha: 100)
-canvas.drawLine(fromX: 0, fromY: 50, toX: 140, toY: 0)
-
-canvas.lineColor = Color.init(hue: 286, saturation: 0, brightness: 69, alpha: 100)
-canvas.drawLine(fromX: 0, fromY: 150, toX: 150, toY: 0)
-
-canvas.lineColor = Color.init(hue: 286, saturation: 0, brightness: 69, alpha: 100)
-canvas.drawLine(fromX: 115, fromY: 155, toX: 265, toY: 0)
-
-canvas.lineColor = Color.init(hue: 286, saturation: 0, brightness: 69, alpha: 100)
-canvas.drawLine(fromX: 230, fromY: 155, toX: 380, toY: 0)
-
-canvas.lineColor = Color.init(hue: 286, saturation: 0, brightness: 69, alpha: 100)
-canvas.drawLine(fromX: 345, fromY: 155, toX: 495, toY: 0)
-
-//Draw the dark grey
+//Draw the dark grey peaks
+//canvas.lineColor = Color.init(hue: 247, saturation: 0, brightness: 50, alpha: 100)
 
 /*:
  ## Template code
