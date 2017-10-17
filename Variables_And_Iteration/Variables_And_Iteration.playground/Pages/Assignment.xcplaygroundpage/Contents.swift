@@ -25,73 +25,68 @@ let canvas = Canvas(width: 500, height: 500)
 canvas.defaultLineWidth = 2
 
 // Draw lines starting at top left
-
+canvas.lineColor = Color.init(hue: 241, saturation: 93, brightness: 69, alpha: 100)
 for x in stride(from: 50, through: 450, by: 100) {
     canvas.drawLine(fromX: 0, fromY: 500, toX: x, toY: 350)
 }
 
 //Draw lines starting at top right
-
 for x in stride(from: 450, through: 50, by: -100) {
     canvas.drawLine(fromX: 500, fromY: 500, toX: x, toY: 350)
 }
 
 //draw lines starting at bottom left
-
+canvas.lineColor = Color.init(hue: 309, saturation: 93, brightness: 55, alpha: 100)
 for x in stride(from: 50, through: 450, by: 100) {
     canvas.drawLine(fromX: 0, fromY: 0, toX: x, toY: 150)
 }
 
 //draw lines starting at bottom right
-
 for x in stride(from: 450, through: 50, by: -100) {
     canvas.drawLine(fromX: 500, fromY: 0, toX: x, toY: 150)
 }
 
 //draw lines starting at (450,150)
-
+canvas.lineColor = Color.init(hue: 309, saturation: 93, brightness: 55, alpha: 100)
 for y in stride(from: 200, through: 350, by: 50) {
     canvas.drawLine(fromX: 450, fromY: 150, toX: 300, toY: y)
 }
 
-//draw lines startin at (450,350)
-
+//draw lines starting at (450,350)
+canvas.lineColor = Color.init(hue: 241, saturation: 93, brightness: 69, alpha: 100)
 for y in stride(from: 300, through: 150, by: -50) {
     canvas.drawLine(fromX: 450, fromY: 350, toX: 300, toY: y)
 }
 
 //draw lines starting at (50,350)
-
 for y in stride(from: 300, through: 150, by: -50) {
     canvas.drawLine(fromX: 50, fromY: 350, toX: 200, toY: y)
 }
 
 //draw lines staring at (50,150)
-
+canvas.lineColor = Color.init(hue: 309, saturation: 93, brightness: 55, alpha: 100)
 for y in stride(from: 200, through: 350, by: 50) {
     canvas.drawLine(fromX: 50, fromY: 150, toX: 200, toY: y)
 }
 
 //draw lines staring at (250,350) going left
-
+canvas.lineColor = Color.init(hue: 241, saturation: 93, brightness: 69, alpha: 100)
 for y in stride(from: 300, through: 150, by: -50) {
     canvas.drawLine(fromX: 250, fromY: 350, toX: 200, toY: y)
 }
 
 //draw lines staring at (250,350) going right
-
 for y in stride(from: 300, through: 150, by: -50) {
     canvas.drawLine(fromX: 250, fromY: 350, toX: 300, toY: y)
 }
 
 //draw lines starting at (250,150) going left
-
+canvas.lineColor = Color.init(hue: 309, saturation: 93, brightness: 55, alpha: 100)
 for y in stride(from: 200, through: 350, by: 50) {
     canvas.drawLine(fromX: 250, fromY: 150, toX: 200, toY: y)
 }
 
 //draw lines starting at (250,150) going right
-
 for y in stride(from: 200, through: 350, by: 50) {
     canvas.drawLine(fromX: 250, fromY: 150, toX: 300, toY: y)
 }

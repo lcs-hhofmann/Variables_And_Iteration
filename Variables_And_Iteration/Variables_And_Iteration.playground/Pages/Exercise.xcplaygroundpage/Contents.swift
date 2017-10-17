@@ -59,7 +59,16 @@ for i in stride(from: 70, through: 105, by :1) {
     canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 170-i)
 }
 for i in stride(from: 105, through: 140, by: 1) {
-    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 29+i)
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: -39+i)
+}
+for i in stride(from: 140, through: 175, by :1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 240-i)
+}
+for i in stride(from: 175, through: 210, by: 1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: -227+i)
+}
+for i in stride(from: 210, through: 245, by :1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 310-i)
 }
 
 //Draw the dark grey peaks
