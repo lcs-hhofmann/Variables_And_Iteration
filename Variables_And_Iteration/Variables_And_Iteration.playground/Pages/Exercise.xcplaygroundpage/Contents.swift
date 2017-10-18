@@ -48,6 +48,7 @@ for i in stride(from: 250, through: 300, by:1) {
     canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: -100+i)
 }
 
+//draw the dark grey peaks
 canvas.lineColor = Color.init(hue: 247, saturation: 0, brightness: 50, alpha: 100)
 for i in stride(from: 0, through: 35, by :1) {
     canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 100-i)
@@ -65,15 +66,17 @@ for i in stride(from: 140, through: 175, by :1) {
     canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 240-i)
 }
 for i in stride(from: 175, through: 210, by: 1) {
-    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: -227+i)
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: -109+i)
 }
-for i in stride(from: 210, through: 245, by :1) {
+for i in stride(from: 210, through: 245, by: 1) {
     canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 310-i)
 }
-
-//Draw the dark grey peaks
-//canvas.lineColor = Color.init(hue: 247, saturation: 0, brightness: 50, alpha: 100)
-
+for i in stride(from: 245, through: 280, by: 1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: -179+i)
+}
+for i in stride(from: 280, through: 315, by: 1) {
+    canvas.drawLine(fromX: i, fromY: 0, toX: i, toY: 380-i)
+}
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
