@@ -36,7 +36,7 @@ for x in stride(from: 450, through: 50, by: -100) {
 }
 
 //draw lines starting at bottom left
-canvas.lineColor = Color.init(hue: 309, saturation: 93, brightness: 55, alpha: 100)
+canvas.lineColor = Color.init(hue: 309, saturation: 93, brightness: 56, alpha: 100)
 for x in stride(from: 50, through: 450, by: 100) {
     canvas.drawLine(fromX: 0, fromY: 0, toX: x, toY: 150)
 }
